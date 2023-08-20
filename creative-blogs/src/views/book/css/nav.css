@@ -1,0 +1,14 @@
+.navfather {
+  position: relative;
+}
+.navfather nav {
+  position: absolute;
+  left: -160px;
+  top: 10px;
+}
+.navfather nav a .img {
+  margin: 10px;
+}
+.active {
+  display: none;
+}

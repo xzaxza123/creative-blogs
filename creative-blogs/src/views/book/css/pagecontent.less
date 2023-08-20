@@ -1,0 +1,60 @@
+//富文本编辑器的两页的样式
+.paper{
+    // border: 1px solid black;
+    width: 530px;
+    height: 638px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    .title{
+        height: 30px;
+        width: 525px;
+        border-bottom: 1px solid black;  //#e8e8e8
+        margin-left: auto;
+        margin-right: auto;
+
+        .h3{
+            position: absolute;
+            left: 10px;
+            top: 3px;
+            margin: 0px;
+        }
+    }
+
+    .content{
+        position:relative;
+        width: 510px;
+        left: 7px;
+        top: 4px;
+        span{
+            text-align: left;
+            p{
+                margin: 10px;
+            }
+            img{
+                float:left;  
+                padding: 10px;
+            }
+        }
+    }
+
+    .content2{
+        position:relative;
+        width: 510px;
+        left: 2px;
+        top: 4px;
+        span{
+            text-align: left;
+            p{
+                margin: 10px;
+            }
+            img{
+                float:right;  
+                padding: 10px;
+            }
+        }
+    }
+}

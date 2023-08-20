@@ -1,0 +1,54 @@
+.paper {
+  width: 530px;
+  height: 638px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.paper .title {
+  height: 30px;
+  width: 525px;
+  border-bottom: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.paper .title .h3 {
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  margin: 0px;
+}
+.paper .content {
+  position: relative;
+  width: 510px;
+  left: 7px;
+  top: 4px;
+}
+.paper .content span {
+  text-align: left;
+}
+.paper .content span p {
+  margin: 10px;
+}
+.paper .content span img {
+  float: left;
+  padding: 10px;
+}
+.paper .content2 {
+  position: relative;
+  width: 510px;
+  left: 2px;
+  top: 4px;
+}
+.paper .content2 span {
+  text-align: left;
+}
+.paper .content2 span p {
+  margin: 10px;
+}
+.paper .content2 span img {
+  float: right;
+  padding: 10px;
+}
